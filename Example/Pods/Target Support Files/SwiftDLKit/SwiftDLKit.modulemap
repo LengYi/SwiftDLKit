@@ -1,0 +1,6 @@
+framework module SwiftDLKit {
+  umbrella header "SwiftDLKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

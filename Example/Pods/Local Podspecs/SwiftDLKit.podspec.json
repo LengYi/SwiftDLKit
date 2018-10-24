@@ -1,0 +1,22 @@
+{
+  "name": "SwiftDLKit",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftDLKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/707689817@qq.com/SwiftDLKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "707689817@qq.com": "dlj1@meitu.com"
+  },
+  "source": {
+    "git": "https://github.com/707689817@qq.com/SwiftDLKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftDLKit/Classes/**/*"
+}
