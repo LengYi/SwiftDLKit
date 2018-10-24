@@ -1,9 +1,9 @@
 {
   "name": "SwiftDLKit",
   "version": "0.1.0",
-  "summary": "A short description of SwiftDLKit.",
+  "summary": "Swift常用功能库封装",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/707689817@qq.com/SwiftDLKit",
+  "homepage": "https://github.com/LengYi/SwiftDLKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "707689817@qq.com": "dlj1@meitu.com"
   },
   "source": {
-    "git": "https://github.com/707689817@qq.com/SwiftDLKit.git",
+    "git": "https://github.com/LengYi/SwiftDLKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
