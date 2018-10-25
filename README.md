@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftDLKit.svg?style=flat)](https://cocoapods.org/pods/SwiftDLKit)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftDLKit.svg?style=flat)](https://cocoapods.org/pods/SwiftDLKit)
 
+## USAge
++ Foundations
+	+ [String](Note/FoundationEx/String/StringEx.md)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -22,7 +26,7 @@ pod 'SwiftDLKit'
 
 ## Author
 
-707689817@qq.com, dlj1@meitu.com
+707689817@qq.com
 
 ## License
 
