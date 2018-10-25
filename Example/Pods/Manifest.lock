@@ -11,7 +11,9 @@ PODS:
     - FBSnapshotTestCase (~> 2.0)
     - Nimble (~> 7.0)
   - Quick (1.2.0)
-  - SwiftDLKit (0.1.0)
+  - SwiftDLKit (0.1.0):
+    - SwiftDLKit/Foundations (= 0.1.0)
+  - SwiftDLKit/Foundations (0.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -36,7 +38,7 @@ SPEC CHECKSUMS:
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  SwiftDLKit: c6c21691aef1de1d0a59ceaa9f62aa718c8abf39
+  SwiftDLKit: 263ea41efe7d88e06458349bd9ac20f2346b1546
 
 PODFILE CHECKSUM: d1c13247febdf6c56d772523ef63ef3aa6ed1f18
 

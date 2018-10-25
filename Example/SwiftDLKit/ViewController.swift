@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        String.test()
+        StringTestManager.test()
     }
 
     override func didReceiveMemoryWarning() {

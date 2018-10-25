@@ -15,6 +15,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		CAD5B7071921BD525D291B59 /* Pods_SwiftDLKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82FA328CE6F52AA48ECF2F32 /* Pods_SwiftDLKit_Example.framework */; };
+		CF46038A2181BAF000A9189D /* StringTestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4603892181BAF000A9189D /* StringTestManager.swift */; };
+		CF46038B2181BAF000A9189D /* StringTestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4603892181BAF000A9189D /* StringTestManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +32,7 @@
 /* Begin PBXFileReference section */
 		0327EA72186D45854FF2CAA2 /* Pods-SwiftDLKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDLKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDLKit_Example/Pods-SwiftDLKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2974FDB8AFAAA2CF26C88729 /* Pods-SwiftDLKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDLKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDLKit_Tests/Pods-SwiftDLKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3EB5CD2178226DA4F4310E8D /* SwiftDLKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftDLKit.podspec; path = ../SwiftDLKit.podspec; sourceTree = "<group>"; };
+		3EB5CD2178226DA4F4310E8D /* SwiftDLKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftDLKit.podspec; path = ../SwiftDLKit.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftDLKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDLKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,9 +44,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		82FA328CE6F52AA48ECF2F32 /* Pods_SwiftDLKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDLKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		99695E7504607B2453C83DDD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		99695E7504607B2453C83DDD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C1225D65BF22723CAFD8508F /* Pods_SwiftDLKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDLKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D400EBCF6E999A43EFB206D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CF4603892181BAF000A9189D /* StringTestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTestManager.swift; sourceTree = "<group>"; };
+		D400EBCF6E999A43EFB206D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D5810F9D901596C802FF8FE7 /* Pods-SwiftDLKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDLKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDLKit_Example/Pods-SwiftDLKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F773CDEDA223E2A61E8685CF /* Pods-SwiftDLKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDLKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDLKit_Tests/Pods-SwiftDLKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +75,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				CF4603832181BAAC00A9189D /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for SwiftDLKit */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -148,6 +152,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CF4603832181BAAC00A9189D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF4603842181BAAC00A9189D /* FoundationEx */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CF4603842181BAAC00A9189D /* FoundationEx */ = {
+			isa = PBXGroup;
+			children = (
+				CF4603852181BAAC00A9189D /* StringViewController */,
+			);
+			path = FoundationEx;
+			sourceTree = "<group>";
+		};
+		CF4603852181BAAC00A9189D /* StringViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF4603892181BAF000A9189D /* StringTestManager.swift */,
+			);
+			path = StringViewController;
+			sourceTree = "<group>";
+		};
 		DA73D785D8B7B88C6BC9142A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,7 +236,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -348,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				CF46038A2181BAF000A9189D /* StringTestManager.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				CF46038B2181BAF000A9189D /* StringTestManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,12 +432,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -455,12 +487,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
